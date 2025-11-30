@@ -1,0 +1,15 @@
+google-genai
+google-adk
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+httpx
+aiofiles
+
+# Testing dependencies
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+httpx

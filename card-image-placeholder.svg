@@ -1,0 +1,73 @@
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A78BFA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F472B6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGradient)"/>
+
+  <!-- Main Title -->
+  <text x="640" y="150" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">
+    Timestable Tutor
+  </text>
+
+  <!-- Subtitle -->
+  <text x="640" y="200" font-family="Arial, sans-serif" font-size="28" fill="white" fill-opacity="0.9" text-anchor="middle">
+    AI-Powered Adaptive Learning for Kids
+  </text>
+
+  <!-- Central Equation -->
+  <text x="640" y="310" font-family="Arial, sans-serif" font-size="84" font-weight="bold" fill="#FCD34D" text-anchor="middle">
+    7 × 8 = ?
+  </text>
+
+  <!-- Math Tutor Agent (Top) -->
+  <circle cx="640" cy="420" r="50" fill="#3B82F6" stroke="white" stroke-width="4"/>
+  <text x="640" y="435" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">🧮</text>
+  <text x="640" y="500" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">Math Tutor</text>
+
+  <!-- Facts Agent (Bottom Left) -->
+  <circle cx="480" cy="550" r="50" fill="#FCD34D" stroke="white" stroke-width="4"/>
+  <text x="480" y="565" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">⭐</text>
+  <text x="480" y="630" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">Fun Facts</text>
+
+  <!-- Coordinator Agent (Bottom Right) -->
+  <circle cx="800" cy="550" r="50" fill="#A855F7" stroke="white" stroke-width="4"/>
+  <text x="800" y="565" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">🎯</text>
+  <text x="800" y="630" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">Coordinator</text>
+
+  <!-- Connection Lines -->
+  <line x1="590" y1="440" x2="510" y2="520" stroke="white" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="690" y1="440" x2="770" y2="520" stroke="white" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="530" y1="560" x2="750" y2="560" stroke="white" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+
+  <!-- Tech Badges -->
+  <rect x="400" y="660" width="160" height="35" rx="17.5" fill="white" fill-opacity="0.2"/>
+  <text x="480" y="685" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Google Gemini AI</text>
+
+  <rect x="575" y="660" width="80" height="35" rx="17.5" fill="white" fill-opacity="0.2"/>
+  <text x="615" y="685" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Next.js</text>
+
+  <rect x="670" y="660" width="80" height="35" rx="17.5" fill="white" fill-opacity="0.2"/>
+  <text x="710" y="685" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Python</text>
+
+  <rect x="765" y="660" width="115" height="35" rx="17.5" fill="white" fill-opacity="0.2"/>
+  <text x="822.5" y="685" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Multi-Agent</text>
+
+  <!-- Decorative Numbers -->
+  <text x="150" y="200" font-family="Arial, sans-serif" font-size="36" fill="white" fill-opacity="0.3">2</text>
+  <text x="1100" y="250" font-family="Arial, sans-serif" font-size="36" fill="white" fill-opacity="0.3">3</text>
+  <text x="200" y="500" font-family="Arial, sans-serif" font-size="36" fill="white" fill-opacity="0.3">5</text>
+  <text x="1050" y="450" font-family="Arial, sans-serif" font-size="36" fill="white" fill-opacity="0.3">7</text>
+  <text x="100" y="350" font-family="Arial, sans-serif" font-size="36" fill="white" fill-opacity="0.3">9</text>
+  <text x="1130" y="600" font-family="Arial, sans-serif" font-size="36" fill="white" fill-opacity="0.3">12</text>
+
+  <!-- Sparkles -->
+  <text x="250" y="150" font-family="Arial, sans-serif" font-size="24" fill="#FCD34D">✨</text>
+  <text x="1000" y="180" font-family="Arial, sans-serif" font-size="24" fill="#FCD34D">✨</text>
+  <text x="120" y="600" font-family="Arial, sans-serif" font-size="24" fill="#FCD34D">✨</text>
+</svg>
